@@ -33,8 +33,12 @@ const property = () => {
             consectetur sapiente, aperiam totam, quo dignissimos quidem
             pariatur!
           </p>
-          <button className="mt-4 mr-8 px-8 py-2">Demo</button>
-          <button className="mt-4 mr-8 px-8 py-2">Code</button>
+          <button className="mt-4 mr-8 px-8 py-2">
+            <a href="https://ticktaktoe.vercel.app">Demo</a>
+          </button>
+          <button className="mt-4 mr-8 px-8 py-2">
+            <a href="https://github.com/noodlesaddle/ticktaktoe.git"></a> Code
+          </button>
         </div>
         <div className="col-span-4 rounded-xl p-4 shadow-xl shadow-gray-400 md:col-span-1">
           <div className="p-2">
