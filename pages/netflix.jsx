@@ -27,11 +27,10 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis error cupiditate distinctio recusandae quaerat nam
-            nemo, ea ratione accusantium facilis inventore reiciendis
-            consectetur sapiente, aperiam totam, quo dignissimos quidem
-            pariatur!
+            This project was a clone project made on React with user sign up and
+            sign in session built with firebase. I also learned about API
+            fetching. This project taught me little bit about back-end user data
+            fetching.
           </p>
           <button href="" className="mt-4 mr-8 px-8 py-2">
             <a href="https://tserenbal.online/">Demo</a>
