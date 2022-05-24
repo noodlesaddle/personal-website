@@ -25,13 +25,11 @@ const property = () => {
       <div className="mx-auto grid max-w-[1240px] gap-8 p-2 pt-8 md:grid-cols-5">
         <div className="col-span-4">
           <p>Project</p>
-          <h2>Overview</h2>
+          <h2 className="py-4">Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis error cupiditate distinctio recusandae quaerat nam
-            nemo, ea ratione accusantium facilis inventore reiciendis
-            consectetur sapiente, aperiam totam, quo dignissimos quidem
-            pariatur!
+            This is a real state project using react and Google map API,Zillow
+            API geolocation based on location with data filtering. Tailwind css
+            was used for styling and Firebase as back-end.
           </p>
           <button className="mt-4 mr-8 px-8 py-2">Demo</button>
           <button className="mt-4 mr-8 px-8 py-2">Code</button>

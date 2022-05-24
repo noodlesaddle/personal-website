@@ -25,7 +25,7 @@ const netflix = () => {
       <div className="mx-auto grid max-w-[1240px] gap-8 p-2 pt-8 md:grid-cols-5">
         <div className="col-span-4">
           <p>Project</p>
-          <h2>Overview</h2>
+          <h2 className="py-4">Overview</h2>
           <p>
             This project was a clone project made on React with user sign up and
             sign in session built with firebase. I also learned about API
@@ -35,7 +35,9 @@ const netflix = () => {
           <button href="" className="mt-4 mr-8 px-8 py-2">
             <a href="https://tserenbal.online/">Demo</a>
           </button>
-          <button className="mt-4 mr-8 px-8 py-2">Code</button>
+          <button className="mt-4 mr-8 px-8 py-2">
+            <a href="">Code</a>
+          </button>
         </div>
         <div className="col-span-4 rounded-xl p-4 shadow-xl shadow-gray-400 md:col-span-1">
           <div className="p-2">

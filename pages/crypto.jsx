@@ -25,13 +25,10 @@ const crypto = () => {
       <div className="mx-auto grid max-w-[1240px] gap-8 p-2 pt-8 md:grid-cols-5">
         <div className="col-span-4">
           <p>Project</p>
-          <h2>Overview</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis error cupiditate distinctio recusandae quaerat nam
-            nemo, ea ratione accusantium facilis inventore reiciendis
-            consectetur sapiente, aperiam totam, quo dignissimos quidem
-            pariatur!
+          <h2>Coming soon</h2>
+          <p className="py-4">
+            I am working on building crypto app where users can see current
+            crypto currency trade market.
           </p>
           <button className="mt-4 mr-8 px-8 py-2">Demo</button>
           <button className="mt-4 mr-8 px-8 py-2">Code</button>

@@ -25,14 +25,8 @@ const twitch = () => {
       <div className="mx-auto grid max-w-[1240px] gap-8 p-2 pt-8 md:grid-cols-5">
         <div className="col-span-4">
           <p>Project</p>
-          <h2>Overview</h2>
-          <p>
-            Lorem ipsum dolor sssssit amet consecteturss adipisicing elit.
-            Perspiciatis error cupiditate distinctio recusandae quaerat nam
-            nemo, ea ratione accusantium facilis inventore reiciendis
-            consectetur sapiente, aperiam totam, quo dignissimos quidem
-            pariatur!
-          </p>
+          <h2 className="py-4">Coming soon</h2>
+          <p>I am working on clone project of twitch</p>
           <button className="mt-4 mr-8 px-8 py-2">Demo</button>
           <button className="mt-4 mr-8 px-8 py-2">Code</button>
         </div>
