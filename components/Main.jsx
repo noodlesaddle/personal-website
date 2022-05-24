@@ -18,9 +18,9 @@ const Main = () => {
           </h1>
           <h1 className="py-3 text-gray-700 ">A Front-End Web Develor</h1>
           <p className="m-auto max-w-[70%] py-6 text-gray-600">
-            with UI UX designer experience specialized in building exceptional
+            with UI UX designer experience specialized on building exceptional
             digital experience. Currently I am focused on building responsive
-            front-end application while honning my skills as designer.{" "}
+            front-end application whilest honning my skills as designer.{" "}
           </p>
           <div className="m-auto flex max-w-[330px] items-center justify-between py-4 ">
             <Link href="https://www.linkedin.com/in/tserenbal/">
