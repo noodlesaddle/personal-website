@@ -47,7 +47,8 @@ const About = () => {
         </div>
         <div className=" m-auto flex h-auto w-full scale-105 items-center justify-center rounded-full py-4 ">
           <Image
-            src="/../public/assets/me.png"
+            src="/../public/assets/me.jpg
+            "
             width="1500"
             height="1500"
             alt="/"
