@@ -15,6 +15,11 @@ const Projects = () => {
         <h2 className="py-4">What I have built</h2>
         <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
+            title="Netflix"
+            backgroundImg={netflixImg}
+            projectUrl="/netflix"
+          />
+          <ProjectItem
             title="Property Finder"
             backgroundImg={propertyImg}
             projectUrl="/property"
@@ -24,11 +29,7 @@ const Projects = () => {
             backgroundImg={cryptopImg}
             projectUrl="/crypto"
           />
-          <ProjectItem
-            title="Netflix"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
-          />
+
           <ProjectItem
             title="Twitch"
             backgroundImg={twitchImg}

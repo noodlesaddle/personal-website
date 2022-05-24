@@ -33,7 +33,9 @@ const netflix = () => {
             consectetur sapiente, aperiam totam, quo dignissimos quidem
             pariatur!
           </p>
-          <button className="mt-4 mr-8 px-8 py-2">Demo</button>
+          <button href="" className="mt-4 mr-8 px-8 py-2">
+            <a href="https://tserenbal.online/">Demo</a>
+          </button>
           <button className="mt-4 mr-8 px-8 py-2">Code</button>
         </div>
         <div className="col-span-4 rounded-xl p-4 shadow-xl shadow-gray-400 md:col-span-1">

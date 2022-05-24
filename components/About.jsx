@@ -19,9 +19,7 @@ const About = () => {
             {" "}
             Greetings! 👋 I am Tserenbal (バル).
             <br></br>Born in the Gobi desert of Mongolia and raised as a nomad,
-            transforming to be a digital nomad. Aspiring to develop products
-            with simplicity, efficiency and empathy in mind to make people's
-            lives easier.
+            transforming to be a digital nomad.
             <div className="py-6">
               <p>
                 I have broad experience working as designer on web applications,
