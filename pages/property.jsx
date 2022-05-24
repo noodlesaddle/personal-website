@@ -17,8 +17,8 @@ const property = () => {
           alt="/"
         />
         <div className="absolute top-[70%] left-[50%] right-[50%] z-10 w-full max-w-[1240px] translate-x-[-50%] translate-y-[-50%] p-2 text-white">
-          <h2 className="py-2">Property Finder</h2>
-          <h3> React JS / Tailwind /Firebase</h3>
+          <h2 className="py-2">Property</h2>
+          <h3> React </h3>
         </div>
       </div>
 
@@ -33,12 +33,8 @@ const property = () => {
             consectetur sapiente, aperiam totam, quo dignissimos quidem
             pariatur!
           </p>
-          <button className="mt-4 mr-8 px-8 py-2">
-            <a href="https://ticktaktoe.vercel.app">Demo</a>
-          </button>
-          <button className="mt-4 mr-8 px-8 py-2">
-            <a href="https://github.com/noodlesaddle/ticktaktoe.git"></a> Code
-          </button>
+          <button className="mt-4 mr-8 px-8 py-2">Demo</button>
+          <button className="mt-4 mr-8 px-8 py-2">Code</button>
         </div>
         <div className="col-span-4 rounded-xl p-4 shadow-xl shadow-gray-400 md:col-span-1">
           <div className="p-2">

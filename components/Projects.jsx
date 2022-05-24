@@ -15,12 +15,12 @@ const Projects = () => {
         <h2 className="py-4">What I have built</h2>
         <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
-            title="Netflix"
+            title="Netflix clone"
             backgroundImg={netflixImg}
             projectUrl="/netflix"
           />
           <ProjectItem
-            title="Property Finder"
+            title="Property App"
             backgroundImg={propertyImg}
             projectUrl="/property"
           />
