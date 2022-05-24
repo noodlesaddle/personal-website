@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Me from "../public/assets/me.jpg";
 
 const About = () => {
   return (
@@ -46,13 +47,7 @@ const About = () => {
           </button>
         </div>
         <div className=" m-auto flex h-auto w-full scale-105 items-center justify-center rounded-full py-4 ">
-          <Image
-            src="/../public/assets/me.jpg
-            "
-            width="1500"
-            height="1500"
-            alt="/"
-          />
+          <Image src={Me} alt="/" />
         </div>
       </div>
     </div>
