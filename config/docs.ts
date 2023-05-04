@@ -4,46 +4,27 @@ export const docsConfig: DocsConfig = {
   mainNav: [
     {
       title: "Projects",
-      href: "/docs",
+      href: "/projects",
     },
   ],
   sidebarNav: [
-    {
-      title: "Getting Started",
-      items: [
-        {
-          title: "About the projects",
-          href: "/docs",
-        },
-      ],
-    },
+   
     {
       title: "Projects",
       items: [
         {
-          title: "Introduction",
-          href: "/docs/documentation",
+          title: "Go Lang web scrappers",
+          href: "/projects/golang",
+        },
+
+        {
+          title: "Chat Search project with Open AI API",
+          href: "/projects/chatSearch",
+
         },
         {
-          title: "Contentlayer",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Components",
-          href: "/docs/documentation/components",
-        },
-        {
-          title: "Code Blocks",
-          href: "/docs/documentation/code-blocks",
-        },
-        {
-          title: "Style Guide",
-          href: "/docs/documentation/style-guide",
-        },
-        {
-          title: "Search",
-          href: "/docs/in-progress",
+          title: "Easy coding app for kids",
+          href: "/projects/in-progress",
           disabled: true,
         },
       ],
