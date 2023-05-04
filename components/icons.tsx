@@ -1,6 +1,7 @@
 import {
   AlertTriangle,
   ArrowRight,
+  Baby,
   Check,
   ChevronLeft,
   ChevronRight,
@@ -35,6 +36,7 @@ export type Icon = LucideIcon
 export const Icons = {
   logo: MousePointerClick,
   close: X,
+  baby: Baby,
   glasses: Glasses,
   spinner: Loader2,
   chevronLeft: ChevronLeft,

@@ -15,14 +15,16 @@ export default function PricingPage() {
   return (
     <>
       <section className="container flex flex-col  gap-6 py-8 md:max-w-[64rem] md:py-12 lg:py-24">
-        <div className=" justify-around  flex">
+        <div className="flex justify-around  ">
           <div className="mx-auto flex w-full flex-col gap-4 md:max-w-[58rem]">
             <div className="flex justify-between">
               <h2 className="font-heading text-3xl leading-[1.1] sm:text-4xl md:text-6xl">
                 Hi, again. <br /> I am Tserenbal Ganbat
               </h2>
-              <img
-                className="object-cover h-32 w-32 border-4 rounded-full  shadow-sm"
+              <Image
+                height={200}
+                width={200}
+                className="h-32 w-32 object-cover border-4 rounded-full  shadow-sm"
                 src="/images/avatars/portrait1.png"
                 alt="portrait image"
               />
@@ -35,7 +37,12 @@ export default function PricingPage() {
                 <Link href="https://miraic.com/"> @ミライク</Link>
               </span>
               . Born in Gobi Desert of Mongolia and raised as a nomad,
-              transforming to be a digital nomad.
+              transforming to be a digital nomad. Also a recent dad of an
+              awesome baby boy
+              <span className="inline-flex">
+                <Icons.baby className="ml-1" size={16} />
+              </span>
+              .
             </p>
             <div className="mt-4">
               <Link
@@ -60,7 +67,9 @@ export default function PricingPage() {
             <ul className="grid gap-6 text-sm text-muted-foreground sm:grid-cols-2">
               <li className="flex items-center">
                 <div className="bg-transparent mr-4">
-                  <img
+                  <Image
+                    height={12}
+                    width={200}
                     className="w-12 h-12 bg-transparent border-4 p-1 object-cover rounded-full shadow-sm"
                     src="/images/about/miraic.png"
                     alt="miraic logo"
@@ -79,7 +88,9 @@ export default function PricingPage() {
               <li className="flex items-center ">2022 ー Present</li>
               <li className="flex items-center">
                 <div className="bg-transparent mr-4">
-                  <img
+                  <Image
+                    height={12}
+                    width={200}
                     className="w-12 h-12 bg-transparent border-4 object-cover rounded-full grayscale shadow-sm"
                     src="/images/about/miraiarts.jpeg"
                     alt="mirai arts logo"
@@ -97,7 +108,9 @@ export default function PricingPage() {
               <li className="flex items-center">2021 ー 2022</li>
               <li className="flex items-center">
                 <div className="bg-transparent mr-4">
-                  <img
+                  <Image
+                    height={12}
+                    width={200}
                     className="w-12 h-12 bg-white border-4 object-cover rounded-full grayscale shadow-sm"
                     src="/images/about/ihotel.png"
                     alt="ihotel logo"
@@ -113,7 +126,9 @@ export default function PricingPage() {
               <li className="flex items-center">2020 ー 2021</li>
               <li className="flex items-center">
                 <div className="bg-transparent mr-4">
-                  <img
+                  <Image
+                    width={200}
+                    height={12}
                     className="w-12 h-12 bg-transparent border-4  object-cover rounded-full grayscale shadow-sm"
                     src="/images/about/met.svg"
                     alt="met logo"
@@ -128,7 +143,9 @@ export default function PricingPage() {
               <li className="flex items-center">2017 ー 2019</li>
               <li className="flex items-center">
                 <div className="bg-transparent mr-4">
-                  <img
+                  <Image
+                    width={200}
+                    height={12}
                     className="w-12 h-12 bg-white border-4 p-1 object-cover rounded-full grayscale shadow-sm"
                     src="/images/about/shang.jpeg"
                     alt="shangrila logo"
