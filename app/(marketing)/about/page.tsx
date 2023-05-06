@@ -44,15 +44,30 @@ export default function PricingPage() {
               </span>
               .
             </p>
-            <div className="mt-4">
-              <Link
-                href={siteConfig.links.linkedin}
-                className="rounded-2xl bg-muted px-4 py-1.5 text-sm inline-flex font-medium"
-                target="_blank"
-              >
-                Connect with me on Linkedin
-                <Icons.SmilePlus className="ml-1" size={16} />
-              </Link>
+            <div className="mt-4 flex">
+              <div className="mr-4">
+                <Link
+                  href={siteConfig.links.linkedin}
+                  className="rounded-2xl bg-muted px-4 py-1.5 text-sm inline-flex font-medium"
+                  target="_blank"
+                >
+                  Connect with me on Linkedin
+                  <Icons.SmilePlus className="ml-1" size={16} />
+                </Link>
+              </div>
+              <div>
+                <form action="mailto:tserenbal.g@gmail.com" method="GET">
+                  <input hidden name="subject" type="text" />
+
+                  <button
+                    className="rounded-2xl bg-muted px-4 py-1.5 text-sm inline-flex font-medium"
+                    type="submit"
+                  >
+                    Write me an email
+                    <Icons.pizza className="ml-1" size={16} />
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
