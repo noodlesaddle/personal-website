@@ -10,8 +10,12 @@ export const docsConfig: DocsConfig = {
   sidebarNav: [
    
     {
-      title: "Projects",
+      title: "",
       items: [
+        {
+          title: "Projects",
+          href: "/projects",
+        },
         {
           title: "Go Lang web scrappers",
           href: "/projects/golang",
