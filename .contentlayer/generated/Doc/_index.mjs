@@ -2,8 +2,8 @@
 
 import docs__chatSearchMdx from './docs__chatSearch.mdx.json' assert { type: 'json' }
 import docs__codeForKidsMdx from './docs__codeForKids.mdx.json' assert { type: 'json' }
+import docs__golangMdx from './docs__golang.mdx.json' assert { type: 'json' }
 import docs__inProgressMdx from './docs__in-progress.mdx.json' assert { type: 'json' }
 import docs__indexMdx from './docs__index.mdx.json' assert { type: 'json' }
-import docs__golangMdx from './docs__golang.mdx.json' assert { type: 'json' }
 
-export const allDocs = [docs__chatSearchMdx, docs__codeForKidsMdx, docs__inProgressMdx, docs__indexMdx, docs__golangMdx]
+export const allDocs = [docs__chatSearchMdx, docs__codeForKidsMdx, docs__golangMdx, docs__inProgressMdx, docs__indexMdx]
