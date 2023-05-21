@@ -29,7 +29,8 @@ export default async function IndexPage() {
           </h1>
 
           <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-md sm:leading-8">
-            Hi, my name is Tserenbal Ganbat , a web developer with UI UX
+            Hi, my name is Tserenbal Ganbat , web developer with{" "}
+            {new Date().getFullYear() - 2022}+ years of experience and UI UX
             designer skills specialized on building exceptional digital
             experience, backed up by {new Date().getFullYear() - 2018} years of
             travel industry expertise.
